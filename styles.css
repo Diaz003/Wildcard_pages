@@ -85,7 +85,12 @@
   }
   
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    body {
+      background: url('/mnt/data/A_screenshot_of_a_dark-themed_landing_page_for_the.png') no-repeat center center fixed;
+      background-size: cover; 
+    }
+  
     .content {
       padding: 80px 15px;
     }
@@ -106,6 +111,10 @@
   }
   
   @media (max-width: 480px) {
+    body {
+      background-size: cover; 
+    }
+  
     h1 {
       font-size: 2rem;
     }
@@ -119,4 +128,3 @@
       padding: 12px 20px;
     }
   }
-  
